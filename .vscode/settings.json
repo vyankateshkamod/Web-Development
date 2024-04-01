@@ -1,0 +1,5 @@
+{
+    "inlineChat.showDiff": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "livePreview.hostIP": " 192.168.1.6"
+}
