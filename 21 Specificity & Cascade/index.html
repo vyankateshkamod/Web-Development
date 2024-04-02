@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity and Cascading</title>
+    <style>
+        /* the specificity of this selector is 1 */
+        h1 {
+            color: aqua;
+        }
+
+        /* the specificity of this selector is 10 */
+        .yellow {
+            color: yellow;
+        }
+
+        /* the specificity of this selector is 10 */
+        .red {
+            color: red;
+        }
+
+        /* the specificity of this selector is 10 */
+        .purple {
+            color: purple;
+        }
+
+        /* this is an example of atribute selector and the specificity of this selector is 10 */
+        [data-x="a"] {
+            color: rgb(155, 0, 0);
+        }
+
+        /* The specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41  */
+        /* a.venkyclass.rohan-class[href]:hover {
+            color: blueviolet;
+        } */
+
+        /* the specificity of this selector is 1+10 = 11 */
+        h1.yellow{
+            color: yellow;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1 class="yellow red purple" data-x="a">CSS Specificity</h1>
+</body>
+
+</html>
