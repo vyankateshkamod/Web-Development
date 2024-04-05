@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadows and outlines</title>
+    <style>
+        
+        .box {
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 5px 5px gray;
+        }
+
+        .text {
+            text-shadow: 5px 5px 4px gray;
+        }
+
+        .box2 {
+            outline: 2px solid green;
+            border: solid black;
+            /* outline is always at out side of the border  */
+            outline-offset: 2px;
+            /* it creates distance between outline and border */
+        }
+
+        .box3{
+            outline: 2px solid green;
+            border: 2px solid black;
+            outline-offset: 10px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a box
+    </div>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, esse ex enim illum delectus
+        molestiae, voluptatem ad, consequuntur laudantium a illo explicabo aliquam aliquid est unde fugit! Delectus,
+        tenetur tempore!
+    </p>
+    <div class="box2">Vyankatesh</div>
+    <br>
+    <br>
+    <div class="box3">Vyankatesh 2</div>
+</body>
+
+</html>
