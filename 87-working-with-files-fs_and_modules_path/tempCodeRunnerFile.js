@@ -1,0 +1,1 @@
+fs.writeFileSync("car.txt","This is G Wagon")
