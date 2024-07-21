@@ -1168,3 +1168,9 @@ video {
     display: block;
   }
 }
+
+@media(max-width:390px){
+  .carry{
+    display: none;
+  }
+}
