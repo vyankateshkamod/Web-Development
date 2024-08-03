@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+  border: 2px solid black;
+}
+
+.card:hover{
+  background-color: rgb(52, 50, 50);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+ul{
+  display: flex;
+  gap: 5px;
+}
+
+li{
+  list-style: none;
+  padding: 0 5px;
+}
+
+nav{
+  background-color: rgb(52, 50, 50);
+  display: flex;
+  justify-content: start;
+  position: relative;
+}
+
+body{
+  background-color: #242424;
+}
+
+li:hover{
+  cursor: pointer;
+}
