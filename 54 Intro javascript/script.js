@@ -19,6 +19,6 @@ else{
 
 // we can style using javascript also 
 
-document.title = "Change title"
+document.title = "Change"
 
-document.body.style.backgroundColor = 'red'
+document.body.style.backgroundColor = 'yellow'

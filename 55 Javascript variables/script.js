@@ -10,7 +10,7 @@ let _a = "Anushka" ;
 // var a55 = "sid"      Not allowed 
 
 console.log(a+b+8)
-console.log(typeof a , typeof b , typeofc) ;
+console.log(typeof a , typeof b , typeof c) ;
 
 {
     let a = 66 ;

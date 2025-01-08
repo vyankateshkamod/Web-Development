@@ -1,22 +1,22 @@
 console.log("Vyankateh")
 
-// let boxex = document.getElementsByClassName("box")
-// console.log(boxex)
+let boxex = document.getElementsByClassName("box")
+console.log(boxex)
 
 // boxex[2].style.backgroundColor = "red"
 
 // document.getElementById("redbox").style.backgroundColor= "red"
 
-//  document.querySelector(".box").style.backgroundColor="green"
+// document.querySelector(".box").style.backgroundColor="green"
 
-console.log(document.querySelectorAll(".box"))
+// console.log(document.querySelectorAll(".box"))
 
 document.querySelectorAll(".box").forEach(e => {
     e.style.backgroundColor = "green"
 })
 
 //open console
-// e = document.getElementsByTagName("div")
+e = document.getElementsByTagName("div")
 
 // HTMLCollection(6) [div.container, div.box, div.box, div.box, div#redbox.box, div.box, redbox: div#redbox.box]
 

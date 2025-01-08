@@ -13,7 +13,7 @@
 //     jumps : true 
 // }
 
-// rabbit.__proto__ = Animal   // set reabbit.[[prototype]] = Animal
+//rabbit.__proto__ = Animal   // set rabbit.[[prototype]] = Animal
 
 
 class Animal{

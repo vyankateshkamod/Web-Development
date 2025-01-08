@@ -1,3 +1,8 @@
+//for loop 
+//while loop 
+//do while loop
+
+
 // for in loop
 
 let obj = {
@@ -6,9 +11,9 @@ let obj = {
     Company: "YRF"
 }
 
-for (const key in obj) {
-    const element = obj[key];
-    console.log(key,element)
+for (const i in obj) {
+    const element = obj[i];
+    console.log(i,element)
 }
 
 // for of loop 
